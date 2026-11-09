@@ -1,1 +1,3 @@
-console.log("MediTrack Application initialized by Kaleb Worku Debele");
+const env = require("../config/env");
+
+console.log(`Starting ${env.APP_NAME || "MediTrack"} on port ${env.PORT} - Kaleb Worku Debele`);
